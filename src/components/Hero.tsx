@@ -1,5 +1,6 @@
 import React from "react";
 import { Calendar, Users, MapPin, Sparkles, BookOpen } from "lucide-react";
+import heroBanner from "../assets/images/course_hero_banner_1783839775298.jpg";
 
 interface HeroProps {
   onOpenModal: () => void;
@@ -102,7 +103,7 @@ export default function Hero({ onOpenModal }: HeroProps) {
               <div className="relative bg-white rounded-3xl overflow-hidden shadow-xl border border-earth/10 flex flex-col">
                 <div className="aspect-[4/5] relative overflow-hidden">
                   <img
-                    src="/src/assets/images/course_hero_banner_1783839775298.jpg"
+                    src={heroBanner}
                     alt="自主學習生態系活動海報"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover transform group-hover:scale-102 transition-transform duration-700"
