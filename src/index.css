@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700;900&family=Noto+Sans+TC:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans TC", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Noto Serif TC", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-ivory: #F8F7F2;
+  --color-ivory-dark: #E9E6D9;
+  --color-forest-dark: #1B3022;
+  --color-forest: #2D4A36;
+  --color-moss: #A4AC86;
+  --color-sap: #D4E09B;
+  --color-earth: #4E3B31;
+}
+
+@utility eco-gradient {
+  background: linear-gradient(to bottom, #1B3022, #2D4A36);
+}
+
+@utility btn-glow {
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #2D4A36 0%, #1B3022 100%);
+  position: relative;
+  overflow: hidden;
+  &:hover {
+    box-shadow: 0 0 20px rgba(212, 224, 155, 0.6);
+    transform: scale(1.02);
+  }
+}
+
+@utility card-lift {
+  transition: all 0.3s ease;
+  border: 1px solid rgba(78, 59, 49, 0.1);
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(27, 48, 34, 0.12);
+    border-color: #A4AC86;
+    background-color: #ffffff;
+  }
+}
+
+
+

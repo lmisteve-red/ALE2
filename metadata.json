@@ -1,0 +1,6 @@
+{
+  "name": "自主學習生態系",
+  "description": "自主學習生態系課程活動網頁，提供活動亮點、講師介紹、精彩課程課次、報名資訊等，融合自然生態風與精緻互動體驗。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
